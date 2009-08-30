@@ -1,0 +1,234 @@
+
+xterm.termName:  rxvt-256color
+xterm.loginShell:         true
+xterm.scrollBar:         false
+xterm.internalBorder:        0
+xterm.borderWidth:           0
+xterm.secondaryScroll:    true
+xterm.saveLines:         65535
+xterm.cursorBlink:        true
+
+! Notifications for pine and irssi under awesome
+xterm.urgentOnBell:       true
+!
+! Extensions
+xterm*perl-lib:         /usr/lib/urxvt/perl/
+xterm*perl-ext-common:  default,matcher,searchable-scrollback
+xterm*urlLauncher:      /usr/local/bin/firefox
+xterm*matcher.button:   1
+! So we catch even nasty URLs
+xterm.cutchars:         `()'*<>[]{|}"
+xtem*cutchars:         `"()'*<>[]{|}
+!
+! Appearance
+xterm*font: -*-fixed-*-*-*-*-10-*-*-*-*-*-*-2
+xterm*boldFont: -*-fixed-*-*-*-*-10-*-*-*-*-*-*-2
+
+!xterm.font:     -xos4-terminus-medium-*-*-*-12-*-*-*-*-*-*-*
+!urxvt.boldFont: -xos4-terminus-bold-*-*-*-12-*-*-*-*-*-*-*
+!urxvt.font:     xft:Dina:style=Regular:size=10
+!urxvt.boldFont: xft:Dina:style=Bold:size=10
+!
+xterm.shading:     30
+xterm.cursorColor: #FFFFFF
+! Pseudo Transparency
+xterm.transparent: false
+! Real transparency (with composite and xcompmgr)
+!xtermTrans*depth:      32
+!xtermTrans*background: rgba:0000/0000/0000/dddd
+!xtermTrans*tintColor:  grey
+
+
+xterm*background: #000000
+xterm*foreground: #ffffff
+
+xterm.keysym.Control-q: perl:mark-yank-urls:activate_mark_mode
+xterm.underlineURLs: true
+xterm.perl-ext: selection,mark-yank-urls
+xterm.urlLauncher: firefox
+
+
+!xterm --perl-lib ${HOME}/.urxvt/ -pe mark-yank-urls
+
+
+
+#black
+*color0: #000000
+#red4
+*color1: #9191ff
+#green3
+*color2: #33ff33
+#yellow3
+*color3: #9474DE
+#blue3
+*color4: #111122
+#*color5: magenta3
+*color5: #ff0000
+#*color5: #ab3030
+#cyan3
+*color6: #9878df
+*color7: gray90
+*color8: gray30
+#red
+*color9: #9191ff
+*color10: green
+*color11: #00ff00
+*color12: #9191ff
+#magneta
+*color13: #88fc00
+
+#cyan
+*color14: #522aa9
+
+
+*color15: white
+*.colorUL: #00ff00
+#white
+*.colorBD: white
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aterm*transparent:true aterm*transpscrollbar:true aterm*shading:60 
+
+XTerm.termName: xterm-256color
+
+XTerm*internalBorder:  5
+XTerm*highlightSelection:  true
+XTerm*VT100.colorBDMode:  on
+XTerm*VT100.colorBD:  blue
+XTerm*VT100.colorULMode:  on
+XTerm*VT100.colorUL:  magenta
+XTerm*VT100.eightBitInput:  true
+XTerm*VT100.eightBitOutput:  true
+
+XTerm*Font: -*-fixed-*-*-*-*-10-*-*-*-*-*-*-2
+XTerm*boldFont: -*-fixed-*-*-*-*-10-*-*-*-*-*-*-2
+
+XTerm*scrollBar:  false
+#XTerm*Background: #050510
+XTerm*Background: #000000
+XTerm*Foreground: white
+XTerm*cursorColor: #9191ff
+XTerm*cursorBlink: true
+XTerm*cursorOffTime: 300
+XTerm*cursorOnTime: 300
+
+
+XTerm*boldMode: false
+XTerm*VT100.titeInhibit:  false
+
+
+
+XTerm*VT100.colorMode:  on
+XTerm*VT100.dynamicColors:  on
+
+#XTerm*VT100.colorULMode:  on
+XTerm*VT100.underLine:  on
+
+XTerm*VT100.colorBDMode: on
+
+#black
+XTerm*VT100.color0: #000000
+#red4
+XTerm*VT100.color1: #9191ff
+#green3
+XTerm*VT100.color2: #33ff33
+#yellow3
+XTerm*VT100.color3: #9474DE
+#blue3
+XTerm*VT100.color4: #111122
+XTerm*VT100.color5: magenta3
+#cyan3
+XTerm*VT100.color6: #9878df
+XTerm*VT100.color7: gray90
+XTerm*VT100.color8: gray30
+#red
+XTerm*VT100.color9: #9191ff
+XTerm*VT100.color10: green
+XTerm*VT100.color11: #00ff00
+#XTerm*VT100.color12: #9191ff
+#magneta
+XTerm*VT100.color13: #88fc00
+#cyan
+XTerm*VT100.color14: #522aa9
+XTerm*VT100.color15: white
+XTerm*VT100.colorUL: #00ff00
+#white
+XTerm*VT100.colorBD: white
+
+XTerm*VT100.cursorColor: lime green
+
+
+#XTerm*VT100.color0: black
+#XTerm*VT100.color1: red3
+#XTerm*VT100.color2: green3
+#XTerm*VT100.color3: yellow3
+#XTerm*VT100.color4: blue3
+#XTerm*VT100.color5: magenta3
+#XTerm*VT100.color6: cyan3
+#XTerm*VT100.color7: gray90
+#XTerm*VT100.color8: gray30
+#XTerm*VT100.color9: red
+#XTerm*VT100.color10: green
+#XTerm*VT100.color11: yellow
+#XTerm*VT100.color12: blue
+#XTerm*VT100.color13: magenta
+#XTerm*VT100.color14: cyan
+#XTerm*VT100.color15: white
+#XTerm*VT100.colorUL: yellow
+#XTerm*VT100.colorBD: white
+
+#XTerm*VT100.cursorColor: lime green
+
+
+
+xmessage*form.okay.shapeStyle:        rectangle
+xmessage*form.okay.background:        black
+xmessage*form.okay.foreground:        white
+xmessage*message*background:        black
+xmessage*background:            #111122
+xmessage*foreground:            white
+xmessage*Scrollbar.width:        1
+xmessage*Scrollbar.borderWidth:        0
+xmessage*Text.?.cursorColor:        rgb:d/5/5
+xmessage*Text.borderColor:        gray65
+xmessage*Text*background:        white
+xmessage*Command.highlightThickness:    1
+xmessage*Command.internalWidth:        5
+xmessage*Command.internalHeight:    3
+xmessage*Command.borderColor:        #9191ff
+xmessage*Command.shapeStyle:        Rectangle
+xmessage*Command.background:        gray80
+xmessage*font:                -*-fixed-*-*-*-*-12-*-*-*-*-*-*-*
+
+
+gnuplot*background: black
+gnuplot*textColor: green
+gnuplot*borderColor: #9191ff
+gnuplot*axisColor: green
+gnuplot*line1Color: white
+gnuplot*line2Color: green
+gnuplot*line3Color: blue
+gnuplot*line4Color: red
+gnuplot*line5Color: cyan
+gnuplot*line6Color: sienna
+gnuplot*line7Color: orange
+gnuplot*line8Color: coral
+
+
